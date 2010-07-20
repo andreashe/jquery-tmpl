@@ -92,6 +92,7 @@
 			}
 		},
 
+
 		encode: function( text ) {
 			return text != null ? document.createTextNode( text.toString() ).nodeValue : "";
 		},
